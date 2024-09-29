@@ -1,0 +1,277 @@
+* {
+    color:rgb(0, 0, 0);
+}
+
+.tarjeta{
+    display: flex;
+    align-items: center;
+    
+}
+.tarjetaTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hero {
+    background-image:url(heroImage.jpg);
+    width: 100vw;
+    height: 270px;
+}
+.tituloHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 50%;
+    margin: 0;
+    
+}
+
+.parrafoHeader{
+    text-align: center;
+    background-color:rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    height: 50%;
+}
+
+.grilla {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.menuPrecio {
+    display: flex;
+    justify-content: center;
+}
+
+.menuBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.botonVerMas{
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-size: 12px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.botonAñadir{
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+    background-color:black;
+}
+
+.pieDePagina {
+    background-color: black;
+    color: white;
+}
+
+.boxRegistro{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioRegistro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 700px;
+    gap: 90px;
+    border: 2px solid;
+    border-radius: 30px;
+    
+}
+
+
+.cajaRegistro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btnRegister {
+    background-color: blue;
+    color: white;
+}
+
+.cajaLogin{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 400px;
+    gap: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+
+}
+
+.tituloLogin{
+    margin-top:40px
+}
+
+.cajaLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btnLogin {
+    background-color: blue;
+    color: white;
+}
+
+
+.cajaBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.btnDisminuir {
+    background-color: red;
+    color: white
+}
+
+.btnIncremento {
+    background-color: blue;
+    color: white;
+}
+
+.subTotal {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.cajaTotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.totalCompra {
+    display: flex;
+    justify-content: center;
+}
+
+.btnTotal {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.btnTotal.disabled {
+    background-color: #6c757d; 
+    color: #fff; 
+    cursor: not-allowed; 
+    opacity: 0.65; 
+  }
+
+.cajaNotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 20px;
+}
+
+.imgNotFound {
+    width: 600px;
+    height: 500px;
+}
+
+
+
+    
+
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    
+   
+}
+
+.profileCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black ;
+    border-radius: 30px;
+    gap: 25px;
+    width: 500px;
+    height: 600px;
+    
+    
+}
+
+.profileImg{
+    width: 200px;
+}
+
+.btnProfile{
+    background-color: red;
+    color:white
+}
